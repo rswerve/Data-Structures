@@ -60,7 +60,7 @@ Graph.prototype.removeEdge = function(fromNode, toNode){
 Graph.prototype.forEachNode = function(cb){
   for(var key in this.nodes){
     cb(key);  //string
-    this.edges;
+    //this.edges;
   }
 };
 
